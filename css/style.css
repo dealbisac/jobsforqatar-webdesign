@@ -1,0 +1,284 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Header Navigation*/
+
+.menu-bar {
+    background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+}
+
+.navbar-brand {
+    margin-left: 20px;
+}
+
+.navbar-brand img {
+    border-top-right-radius: 20px;
+}
+
+.nav-link {
+    font-size: 16px;
+    color: #fff !important;
+    margin: 2px;
+}
+
+.navbar-nav {
+    text-align: right;
+}
+
+.menu-bar .navbar-toggler {
+    padding-right: 0;
+    outline: none;
+}
+
+/* Banner CSS */
+
+.banner {
+    height: 80vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url("../images/banner/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.banner h1 {
+    padding-top: 170px;
+    font-size: 50px;
+    letter-spacing: 6px;
+    font-weight: 600;
+    text-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+/* Search Section Styling */
+.search-job {
+    padding: 30px 0;
+    margin: -50px 6% 50px;
+    background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+}
+
+.search-job .form-control {
+    max-width: 250px;
+    display: inline-flex;
+    margin: 10px 5px;
+    border-radius: 0;
+    box-shadow: none !important;
+    border: none !important
+}
+
+.search-job .btn-primary {
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    display: inline-flex;
+    margin: 5px;
+    padding: 5px 20px;
+}
+
+/* Top Recruiters Styling */
+#recruiters {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#recruiters h3 {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#recruiters h3::before {
+    content: '';
+    background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+    width: 50px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    z-index: -100;
+    margin-top: -15px;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 90px;
+}
+
+.brands {
+    width: 105% !important;
+}
+
+.brands img {
+    max-width: 100px;
+    margin: 10px 20px;
+}
+
+/* Recent Jobs Styling */
+#jobs {
+    background: #f8f8fa;
+    padding: 50px 0;
+}
+
+.container {
+    padding: 0;
+    margin-top: 5px;
+}
+
+#jobs h3 {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.container h3::before {
+    content: '';
+    background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+    width: 50px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    z-index: -100;
+    margin-top: -15px;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 90px;
+}
+
+.company-details {
+    box-shadow: 0 2px 70px 0 rgba(110, 130, 208, .18);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.job-update {
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.job-update .fa {
+    color: #f6d365;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.job-update small {
+    font-size: 12px;
+    background: #efefef;
+    padding: 1px 5px;
+    margin: 0 5px;
+}
+
+.job-update p {
+    margin-bottom: 0 !important;
+}
+
+.job-update a {
+    text-decoration: none !important;
+    color: blue;
+    float: right;
+}
+
+.apply-btn {
+    height: 40px;
+    background-image: linear-gradient(to right, #f6d365, #fda085);
+    padding: 7px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.apply-btn .btn-primary {
+    padding: 0 40px;
+    float: right;
+    border-radius: 0;
+    box-shadow: none !important;
+    background: blue;
+    border: 1px solid #fff;
+}
+
+.apply-btn .btn-primary:hover {
+    background: #fff;
+    color: blue;
+}
+
+.page-link li {
+    height: 25px;
+    width: 25px;
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.page-link li:hover, .active {
+    background: #f6d365;
+    color: #fff;
+}
+
+.left-arrow {
+    color: #999;
+}
+
+.right-arrow {
+   color: #29b929;
+}
+
+/* Site Stats Styling */
+#site-stats {
+    padding: 100px 0;
+}
+
+#site-stats h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.stats-box {
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 2px 40px 0 rgba(110, 130, 208, .18);
+}
+
+.stats-box .fa {
+    font-size: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/* App Banner Styling */
+#app-banner {
+    padding: 40px 0;
+    background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+}
+
+#app-banner h1 {
+    margin-top: 20px;
+    color: #fff;
+}
+
+#app-banner img {
+    max-width: 300px;
+    max-height: 200px;
+    margin: 25px 0;
+}
+
+/* Footer Styling */
+#footer {
+    background: #f8f8fa;
+    padding: 20px 10px 8px;
+}
+
+#footer-image {
+    margin: 30px 0;
+}
+
+#footer p {
+    color: #999;
+}
+
+#footer a img {
+    width: 50px;
+}
+
+.fa-heart {
+    color: red;
+}
+
+hr {
+    background-color: #ccc;
+}
